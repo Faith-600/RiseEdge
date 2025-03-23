@@ -30,7 +30,7 @@ useEffect(() => {
     <>
       <header className="headerContainer">
         <nav className="navbar">
-          <img src="/images/image3.webp" alt="Logo" className="logo" />
+        <img src="/RiseEdge/images/image4.webp" alt="Logo" className="logo" />
 
           <div className="iconContainer" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? (
