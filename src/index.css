@@ -303,10 +303,10 @@ margin-top: 10px;
     border: 1px solid #ccc; 
     border-radius: 10px;
     overflow: hidden; 
-  
-    height: 40px;
+      height: 40px;
     margin: auto; 
     background: white;
+    
   
    }
   
@@ -319,10 +319,10 @@ margin-top: 10px;
     border-radius: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-  
     transition: all 0.3s ease-in-out;
    max-width:fit-content;
     overflow: hidden;
+  
   }
   
   .tabButton:hover {
@@ -335,6 +335,8 @@ margin-top: 10px;
     color: white;
     border-radius: 10px;
     opacity: 1;
+    transition: color 0.3s ease;
+   
   }
   
   .contentWrapper {
@@ -517,11 +519,7 @@ margin-top: 10px;
       gap:10px ; 
      
      }
-     .displayContainer:hover{
-      transform: scale(1.07);
-      transition: transform 0.3s ease-in-out; 
-       
-     }
+    
 
 .image {
         width: 100px;
